@@ -1,4 +1,4 @@
-package com.prashant.bulma;
+package com.prashant.java.bulmabuilder;
 
 import com.google.auto.service.AutoService;
 
@@ -26,7 +26,7 @@ import javax.tools.JavaFileObject;
  * @author Prashant Singh
  */
 
-@SupportedAnnotationTypes("com.prashant.bulma.BulmaBuilder")
+@SupportedAnnotationTypes("com.prashant.java.bulmabuilder.BulmaBuilder")
 @AutoService(Processor.class)
 @SupportedSourceVersion(SourceVersion.RELEASE_7)
 public class BulmaBuilderProcessor extends AbstractProcessor {

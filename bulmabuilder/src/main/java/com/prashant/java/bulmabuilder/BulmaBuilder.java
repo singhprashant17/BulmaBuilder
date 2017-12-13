@@ -1,4 +1,4 @@
-package com.prashant.bulma;
+package com.prashant.java.bulmabuilder;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

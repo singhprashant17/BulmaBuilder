@@ -1,6 +1,6 @@
 package com.exmaple.bulma.model;
 
-import com.prashant.bulma.BulmaBuilder;
+import com.prashant.java.bulmabuilder.BulmaBuilder;
 
 @BulmaBuilder
 public class VariantsBean {
