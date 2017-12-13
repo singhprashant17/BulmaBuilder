@@ -1,5 +1,31 @@
 apply plugin: 'java-library'
 
+def latestVersion = '1.0.0'
+
+ext {
+    bintrayRepo = 'BulmaBuilder'
+    bintrayName = 'BulmaBuilder'
+
+    publishedGroupId = 'com.prashant.java'
+    libraryName = 'BulmaBuilder'
+    artifact = 'bulmabuilder'
+
+    libraryDescription = ' '
+
+    siteUrl = 'https://github.com/singhprashant17/BulmaBuilder'
+    gitUrl = 'https://github.com/singhprashant17/BulmaBuilder.git'
+
+    libraryVersion = latestVersion
+
+    developerId = 'singhprashant17'
+    developerName = 'Prashant Singh'
+    developerEmail = 'singhprashantkumar@hotmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation group: 'com.google.auto.service', name: 'auto-service', version: '1.0-rc3'
@@ -7,3 +33,6 @@ dependencies {
 
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
