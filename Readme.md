@@ -92,13 +92,26 @@ final ModelClass modelClassObj = new ModelClassBuilder()
 
 <b>Integration</b>
 
-Add it on your gradle build:
+- For android apps, add it on your gradle build:
 
 ```groovy
 dependencies {
-        implementation 'com.prashant.java:bulmabuilder:1.0.0'
+        complie 'com.prashant.java:bulmabuilder:1.0.0'
         annotationProcessor 'com.prashant.java:bulmabuilder:1.0.0'
 }
+```
+- As a gradle dependency
+```groovy
+complie 'com.prashant.java:bulmabuilder:1.0.0'
+```
+- As a maven dependency
+```xml
+<dependency>
+    <groupId>com.prashant.java</groupId>
+    <artifactId>bulmabuilder</artifactId>
+    <version>1.0.0</version>
+    <type>pom</type>
+</dependency>
 ```
 
 <b>Note</b>

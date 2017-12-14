@@ -18,13 +18,6 @@ android {
     }
 }
 
-// remove me
-repositories {
-    maven {
-        url "https://dl.bintray.com/singhprashant17/BulmaBuilder"
-    }
-}
-
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
